@@ -4,5 +4,6 @@
 #languges Used: HTML and CSS
 #Framework: Bootstrap 4.6
 #IDE: VS Code
+#Picture Credits to Unsplash, freepik and Google Images
 #Icons @Flaticon
-# Picture Credits to repective oWners @Unsplash,@freepik.com And Google Images
+# Copyrights @MouliPonduru

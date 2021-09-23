@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tutor Online</title>
+    <link rel="stylesheet" href="tutor.css"/>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3449/3449692.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+  </head>
+  <body style="background-color:linen;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="tutor.html">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C4D0BAQHAk87E5XdEEA/company-logo_200_200/0/1626884371399?e=2159024400&v=beta&t=t07R8XeQPYmAL8mcwG0zrLovu1pGYbYGzgAy4g1Z7E8"
+            class="logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="Aakanksha.html">
+              About Us
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="estore.html" id="navItem2">Stationery</a>
+            <a class="nav-link" href="ebook.html" id="navItem3">E-Books</a>
+            <a class="nav-link" href="workshop.html" id="navItem4">Workshop&Events</a>
+            <a class="nav-link" href="tutor.html" id="navItem5">Tutor Online</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column text-center shadow">
+      <h1 class="banner-heading mb-3 w-50">Learn From World class Experts</h1>
+    </div>
+    <div class="search-bar mt-5 mr-5 d-flex flex-row justify-content-end">
+        <label class="label">Search</label><input type="search" class="input"/>
+    </div>
+    <div class="tutor-carousel mt-3 shadow">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="fe-heading">Our Personalized Tutors</h1>
+          </div>
+          <div class="col-12 mt-3 m-5 pb-5">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-container" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active car">
+                  <div class="content d-block d-flex flex-row justify-content-center w-100 mt-3 mb-3">
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3233/3233515.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Riya Joseph</h1>
+                      <p class="about">Riya Joseph is an Indian teacher from Maharashtra. She is the winner of $1 million annual Global Teacher Prize 2020 which was announced on 3 December 2020</p>
+                    </div>
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3893/3893623.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Babar Ali</h1>
+                      <p class="about">He had begun teaching at nine years of age, mostly as a game, and then decided to continue teaching other children at a larger scale and the greatest of this generation</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item car">
+                  <div class="content d-block d-flex flex-row justify-content-center w-100 mt-3 mb-3">
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Anand Kumar</h1>
+                      <p class="about">Anand Kumar is an Indian Mathematics educator and coaches students for JEE - Advanced, the entrance examination for the Indian Institutes of Technology</p>
+                    </div>
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/36/36183.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Barun Biswas</h1>
+                      <p class="about"> Bengali school teacher and a social activist in Sutia, West Bengal, India. In 2000, he co-founded "Sutia Gonodhorshon Pratibad Mancha"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item car">
+                  <div class="content d-block d-flex flex-row justify-content-center w-100 mt-3 mb-3">
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/0/93.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Ruth Carman</h1>
+                      <p class="about"> He is the winner of the 2019 Global Teacher Prize. He was cited as one of the Top ranker in IIT and Sciences and loved for his work</p>
+                    </div>
+                    <div class="details-container d-flex flex-column justify-content-center text-center shadow m-3 p-3">
+                      <img src="https://cdn-icons-png.flaticon.com/512/3577/3577099.png" class="alumni-image shadow m-3 p-3"/>
+                      <h1 class="name">Ananya Rathore</h1>
+                      <p class="about">She is an Arts and Textiles teacher at our community and helps students to achieve their entreprenuer skills and enrich them with her teaching</p>
+                    </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="featured-events mt-5 pb-5 pt-5 shadow">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="fe-heading m-3">Available Courses</h1>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="d-flex flex-column justify-content-center fe-card pt-3 pb-3 m-3 shadow">
+                  <div class="d-flex flex-column justify-content-start fe-details">
+                    <h3 class="fe-heading ml-2">Data Science and Machine Learning</h3>
+                    <p class="fe-description">New Batch on every first of a month</p>
+                    <button class="fe-button m-3">Know More</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="d-flex flex-column justify-content-center fe-card pt-3 pb-3 m-3 shadow">
+                  <div class="d-flex flex-column justify-content-start fe-details ">
+                    <h3 class="fe-heading ml-2">Web Development along with Frameworks</h3>
+                    <p class="fe-description">New Batch on every first of a month</p>
+                    <button class="fe-button m-3">Know More</button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="d-flex flex-column justify-content-center fe-card pt-3 pb-3 m-3 shadow">
+                  <div class="d-flex flex-column justify-content-start fe-details">
+                    <h3 class="fe-heading ml-2">Backend Development with real time projects</h3>
+                    <p class="fe-description">New Batch on every first of a month</p>
+                    <button class="fe-button m-3">Know More</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="feedback mt-5 mb-5 shadow">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="fe-heading">Know from learners</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 m-3 shadow">
+            <div class="feedback-card d-flex flex-column justify-content-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" class="alumni-image shadow m-3 p-3"/>
+              <p class="">V Sai Pranv is a student who praises Aakanksha for their unique style of teaching, visual learning experience, prompt doubt clearing, regular follow ups and for providing teachers and mentors who give great moral support.</br><span style="font-weight: bold;">Sai Pranav</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 m-3 shadow">
+            <div class="feedback-card d-flex flex-column justify-content-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/417/417776.png" class="alumni-image shadow m-3 p-3"/>
+              <p class="">Amira is a student who says that she has seen a lot of improvement in her studies after being part of Aakanksha through the use of visual learning, supportive teachers, videos and quizzes.</br><span style="font-weight: bold;">Amira</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 m-3 shadow">
+            <div class="feedback-card d-flex flex-column justify-content-center">
+              <img src="https://cdn-icons-png.flaticon.com/512/0/93.png" class="alumni-image shadow m-3 p-3"/>
+              <p class="">Shahid is a student who is really grateful that Aakanksha has made Data Science a lot less frightening for him. He talks about how Data Science has become more fun and interesting with the help of Aakanksha.</br><span style="font-weight: bold;">shahid</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQHAk87E5XdEEA/company-logo_200_200/0/1626884371399?e=2159024400&v=beta&t=t07R8XeQPYmAL8mcwG0zrLovu1pGYbYGzgAy4g1Z7E8"
+              class="lets-grow-more-logo"
+            />
+            <h1 class="footer-section-mail-id">hr@aakanksha.in</h1>
+            <p class="footer-section-address">
+              123 patel nagar, Pune, India.
+            <p class="footer-section-mail-id">Copyrgights @mouliponduru </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>

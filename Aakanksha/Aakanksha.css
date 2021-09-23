@@ -1,0 +1,280 @@
+.logo {
+  width: 100px;
+  height: 100px;
+}
+#navItem1 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem2 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem3 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem4 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navItem5 {
+  color: #323f4b;
+  font-family: "Roboto";
+}
+.banner-section-bg-container {
+  background-image: url("https://t3.ftcdn.net/jpg/01/17/33/22/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  vertical-align: middle;
+}
+.banner-heading {
+  color:limegreen;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: bold;
+
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+.custom-button {
+  color: white;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+.AU-section {
+  background-color:#fff;
+}
+.AU-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.AU-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.AU-card {
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-vector/online-education-learning-open-book-man-reading-tutorial-businessman_39422-674.jpg");
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  height: 300px;
+  background-size: cover;
+  vertical-align: middle;
+}
+.AU-card1 {
+  text-align: center;
+  background-color: #fff;
+  background-image: url("https://img.freepik.com/free-photo/school-boy-yellow-shirt-taking-virtual-classes-raising-hand_23-2148766714.jpg?size=338&ext=jpg");
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  height: 300px;
+  background-size:cover;
+}
+.AU-card2 {
+  text-align: center;
+  background-color: #fff;
+  background-image: url("https://image.freepik.com/free-psd/creative-project-poster-template_23-2148945064.jpg");
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  height: 300px;
+  background-size:cover;
+}
+.AU-card3 {
+  text-align: center;
+  background-color: #fff;
+  background-image: url("https://image.freepik.com/free-psd/minimalist-stationery-mockup_7838-364.jpg");
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+  height: 300px;
+  background-size:cover;
+}
+.AU-card-image {
+  width: 90px;
+  height: 90px;
+}
+.AU-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.AU-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.login-section-img {
+    width: 370px;
+}
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+.footer-section {
+  background-color: #0d2436;
+}
+.footer-section-mail-id {
+  color: #959ead;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.color{
+    color:blue;
+    text-decoration:underline;
+}
+.image-container4{   
+    height:80%;
+    width:50%;
+    background-radius:10px;
+    background-image:url("https://image.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg");
+    background-size:cover;
+}
+
+.signin-card{
+  height: 400px;
+}
+
+.btn-new{
+  width: 80px;
+}
+
+.holder{
+  border-radius: 19px;
+  width: 450px;
+  height: 350px;
+}
+
+.fe-card{
+  border-radius: 16px;
+  border-color: lightpink;
+}
+
+.fe-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fe-img{
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.fe-heading{
+  font-family: "roboto";
+}
+
+.fe-button{
+  width: 50%;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+.ls-image{
+  height: 100px;
+  width: 80px;
+}
+
+.location{
+  height: 180px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.ls-details{
+  height: 180px;
+}
+
+.ls-details-card{
+  border-radius: 16px;
+}
+.ls-image-container{
+  background-color: #f5f5f5;
+  border-radius: 16px;
+}
+
+.alumni-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.tutor{
+  border-radius: 16px;
+}
+.feedback-card{
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    height: 300px;
+}
+
+.style{
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+.tutor-image{
+  border-radius: 16px;
+  background-color: #f5f5f5;
+}
